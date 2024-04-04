@@ -17,7 +17,7 @@ def get_gemini_response(question):
 
 st.set_page_config(page_title="ChatAi")
 
-st.header("Gemini LLM Application")
+st.header("Chatbot And Dailouge system Application")
 
 input=st.text_input("Ask me question: ",key="input")
 submit=st.button("Submit")
